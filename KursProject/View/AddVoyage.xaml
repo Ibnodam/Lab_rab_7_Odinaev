@@ -1,0 +1,219 @@
+﻿<Page x:Class="Sample.View.AddVoyage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+      xmlns:validation="clr-namespace:Sample.Validation"
+      xmlns:local="clr-namespace:Sample.View"
+      xmlns:convert="clr-namespace:Sample.Converters"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="800"
+      Title="Добавление рейса"
+      Background="#FFF5F7FA">
+
+    <Page.Resources>
+        <convert:DateToStringConverter x:Key="DateToStringConverter" />
+        <convert:FromBoatNameToBoatId x:Key="fromNameToId"/>
+        <validation:NameValidationRule x:Key="nameValidation" />
+        <validation:OnlyDigitsValidationRule x:Key="onlyDigitsValidation"/>
+        <validation:NotEmpty x:Key="nameEmpty"/>
+        <validation:SelectionValidationRule x:Key="SelectValidate"/>
+        <validation:ComboboxValidationRule x:Key="ComboboxValidate"/>
+        <validation:SelectionValidationStringRule x:Key="SelectValidString"/>
+
+        <!-- ИСПРАВЛЕННЫЙ ШАБЛОН ОШИБКИ -->
+        <ControlTemplate x:Key="ModernErrorTemplate">
+            <DockPanel>
+                <Border BorderBrush="#FFE53E3E" BorderThickness="2" CornerRadius="4">
+                    <AdornedElementPlaceholder/>
+                </Border>
+                <materialDesign:PackIcon 
+                    Kind="AlertCircle" 
+                    Foreground="#FFE53E3E" 
+                    Width="16" 
+                    Height="16"
+                    Margin="5,0,0,0"
+                    VerticalAlignment="Center"/>
+            </DockPanel>
+        </ControlTemplate>
+
+        <Style x:Key="ModernComboBoxStyle" BasedOn="{StaticResource MaterialDesignFloatingHintComboBox}" TargetType="ComboBox">
+            <Setter Property="Background" Value="#FFFFFFFF"/>
+            <Setter Property="Foreground" Value="#FF2D3748"/>
+            <Setter Property="BorderBrush" Value="#FFE2E8F0"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Height" Value="55"/>
+            <Setter Property="Margin" Value="20,8"/>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="BorderBrush" Value="#FFE53E3E"/>
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="#FF4299E1"/>
+                </Trigger>
+                <Trigger Property="IsDropDownOpen" Value="True">
+                    <Setter Property="BorderBrush" Value="#FF3182CE"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="ModernTextBoxStyle" BasedOn="{StaticResource MaterialDesignFloatingHintTextBox}" TargetType="TextBox">
+            <Setter Property="Background" Value="#FFFFFFFF"/>
+            <Setter Property="Foreground" Value="#FF2D3748"/>
+            <Setter Property="BorderBrush" Value="#FFE2E8F0"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Height" Value="55"/>
+            <Setter Property="Margin" Value="20,8"/>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="BorderBrush" Value="#FFE53E3E"/>
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="#FF4299E1"/>
+                </Trigger>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#FF3182CE"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="ModernDatePickerStyle" TargetType="DatePicker">
+            <Setter Property="Background" Value="#FFFFFFFF"/>
+            <Setter Property="Foreground" Value="#FF2D3748"/>
+            <Setter Property="BorderBrush" Value="#FFE2E8F0"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Height" Value="55"/>
+            <Setter Property="Margin" Value="20,8"/>
+            <Setter Property="materialDesign:HintAssist.Hint" Value="Дата"/>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="BorderBrush" Value="#FFE53E3E"/>
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="#FF4299E1"/>
+                </Trigger>
+                <Trigger Property="IsDropDownOpen" Value="True">
+                    <Setter Property="BorderBrush" Value="#FF3182CE"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="AccentButtonStyle" BasedOn="{StaticResource MaterialDesignRaisedAccentButton}" TargetType="Button">
+            <Setter Property="Background" Value="#FF3182CE"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Margin" Value="20"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF4299E1"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#FF2B6CB0"/>
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform ScaleX="0.98" ScaleY="0.98"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <Border Grid.Row="0" Background="#FF3182CE" Padding="20" Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <materialDesign:PackIcon 
+                    Kind="SailBoat" 
+                    Foreground="White" 
+                    Width="32" 
+                    Height="32"
+                    Margin="0,0,15,0"/>
+                <TextBlock Text="Добавление рейса" 
+                          FontSize="22" 
+                          Foreground="White" 
+                          FontWeight="Bold"
+                          VerticalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Основные поля ввода -->
+        <StackPanel Grid.Row="1" Margin="40,0">
+            <ComboBox x:Name="NameKater"
+                      Style="{StaticResource ModernComboBoxStyle}"
+                      materialDesign:HintAssist.Hint="Название катера"
+                      DisplayMemberPath="BoatName" 
+                      SelectedValuePath="BoatId" 
+                      SelectedValue="{Binding BoatId}"
+                      Validation.ErrorTemplate="{StaticResource ModernErrorTemplate}">
+                <ComboBox.Effect>
+                    <DropShadowEffect ShadowDepth="0" BlurRadius="10" Color="#1A3182CE"/>
+                </ComboBox.Effect>
+            </ComboBox>
+
+            <DatePicker x:Name="name2"
+                        Style="{StaticResource ModernDatePickerStyle}"
+                        materialDesign:HintAssist.Hint="Дата выхода на улов"
+                        Validation.ErrorTemplate="{StaticResource ModernErrorTemplate}">
+                <DatePicker.SelectedDate>
+                    <Binding Path="DepartureDate" UpdateSourceTrigger="PropertyChanged"/>
+                </DatePicker.SelectedDate>
+            </DatePicker>
+
+            <DatePicker x:Name="ReturnDatePicker"
+                        Style="{StaticResource ModernDatePickerStyle}"
+                        materialDesign:HintAssist.Hint="Дата возвращения"
+                        SelectedDate="{Binding Path=ReturnDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                        Validation.ErrorTemplate="{StaticResource ModernErrorTemplate}">
+                <DatePicker.Effect>
+                    <DropShadowEffect ShadowDepth="0" BlurRadius="10" Color="#1A3182CE"/>
+                </DatePicker.Effect>
+            </DatePicker>
+
+            <TextBox x:Name="name4"
+                     Style="{StaticResource ModernTextBoxStyle}"
+                     materialDesign:HintAssist.Hint="Имя капитана"
+                     Validation.ErrorTemplate="{StaticResource ModernErrorTemplate}">
+                <TextBox.Text>
+                    <Binding Path="CaptainName" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validation:NameValidationRule ValidatesOnTargetUpdated="True"/>
+                            <validation:NotEmpty ValidatesOnTargetUpdated="True"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+                <TextBox.Effect>
+                    <DropShadowEffect ShadowDepth="0" BlurRadius="10" Color="#1A3182CE"/>
+                </TextBox.Effect>
+            </TextBox>
+        </StackPanel>
+
+        <!-- Кнопка добавления -->
+        <Border Grid.Row="2" Background="#FFEDF2F7" Padding="15" Margin="0,20,0,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Добавить рейс" 
+                        Command="{Binding AddBoatCom}" 
+                        Click="Button_Click"
+                        Style="{StaticResource AccentButtonStyle}"
+                        MinWidth="200">
+                    <Button.Effect>
+                        <DropShadowEffect ShadowDepth="2" BlurRadius="8" Color="#203182CE"/>
+                    </Button.Effect>
+                </Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

@@ -1,0 +1,973 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\model\\hookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:model\\hookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\visitwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\visitwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\visitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\visitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\viewmodel\\boatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\boatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addboat2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addboat2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addboat2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addboat2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\validation\\comboboxvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:validation\\comboboxvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\validation\\datevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:validation\\datevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\validation\\namevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:validation\\namevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\validation\\notempty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:validation\\notempty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\validation\\onlydigitsvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:validation\\onlydigitsvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\validation\\selectionvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:validation\\selectionvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\validation\\selectionvalidationstringrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:validation\\selectionvalidationstringrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\obj\\Debug\\net8.0-windows\\View\\VisitWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\View\\VisitWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\voyagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\voyagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addvoyage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addvoyage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addvisit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addvisit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addspotpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addspotpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addcatch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addcatch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\spotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\spotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\r6page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r6page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\r5page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r5page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\r4page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r4page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\r3page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r3page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\r2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\r1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editvoyagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editvoyagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editvisitwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editvisitwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editspotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editspotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editcatchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editcatchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editboatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editboatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\catchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\catchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\boatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\boatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\autorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\autorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\converters\\datetostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\datetostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\converters\\boatidtoboatname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\boatidtoboatname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\model\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:model\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\autorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\autorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\viewmodel\\r6viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\r6viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\viewmodel\\r4viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\r4viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\converters\\spotsidtospotname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\spotsidtospotname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\converters\\fromvoyageidtocaptain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromvoyageidtocaptain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\converters\\fromvisitidtodepdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromvisitidtodepdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editboatwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editboatwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editcatchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editcatchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addcatch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addcatch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editspotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editspotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addspotpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addspotpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\converters\\fromspotnametospotid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromspotnametospotid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editvisitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editvisitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addvisit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addvisit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\editvoyagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editvoyagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\view\\addvoyage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addvoyage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\converters\\fromreturndatetovisitid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromreturndatetovisitid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\valij\\onedrive\\desktop\\kursproject\\converters\\fromboatnametoboatid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromboatnametoboatid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddBoat2.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddBoat2.xaml",
+              "RelativeDocumentMoniker": "View\\AddBoat2.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddBoat2.xaml",
+              "RelativeToolTip": "View\\AddBoat2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T16:19:43.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComboboxValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\ComboboxValidationRule.cs",
+              "RelativeDocumentMoniker": "Validation\\ComboboxValidationRule.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\ComboboxValidationRule.cs",
+              "RelativeToolTip": "Validation\\ComboboxValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:15:14.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DateValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\DateValidationRule.cs",
+              "RelativeDocumentMoniker": "Validation\\DateValidationRule.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\DateValidationRule.cs",
+              "RelativeToolTip": "Validation\\DateValidationRule.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:15:23.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NameValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\NameValidationRule.cs",
+              "RelativeDocumentMoniker": "Validation\\NameValidationRule.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\NameValidationRule.cs",
+              "RelativeToolTip": "Validation\\NameValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:15:26.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotEmpty.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\NotEmpty.cs",
+              "RelativeDocumentMoniker": "Validation\\NotEmpty.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\NotEmpty.cs",
+              "RelativeToolTip": "Validation\\NotEmpty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:15:29.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddBoat2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddBoat2.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddBoat2.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddBoat2.xaml.cs",
+              "RelativeToolTip": "View\\AddBoat2.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:13:16.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BoatViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\ViewModel\\BoatViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BoatViewModel.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\ViewModel\\BoatViewModel.cs",
+              "RelativeToolTip": "ViewModel\\BoatViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIAwwDUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:10:00.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VisitWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\VisitWindow.xaml",
+              "RelativeDocumentMoniker": "View\\VisitWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\VisitWindow.xaml",
+              "RelativeToolTip": "View\\VisitWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-11T20:22:52.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HookContext.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Model\\HookContext.cs",
+              "RelativeDocumentMoniker": "Model\\HookContext.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Model\\HookContext.cs*",
+              "RelativeToolTip": "Model\\HookContext.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T15:51:44.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VisitWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\VisitWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\VisitWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\VisitWindow.xaml.cs",
+              "RelativeToolTip": "View\\VisitWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAhwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T21:15:01.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OnlyDigitsValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\OnlyDigitsValidationRule.cs",
+              "RelativeDocumentMoniker": "Validation\\OnlyDigitsValidationRule.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\OnlyDigitsValidationRule.cs",
+              "RelativeToolTip": "Validation\\OnlyDigitsValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:15:32.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SelectionValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\SelectionValidationRule.cs",
+              "RelativeDocumentMoniker": "Validation\\SelectionValidationRule.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\SelectionValidationRule.cs",
+              "RelativeToolTip": "Validation\\SelectionValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:15:34.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SelectionValidationStringRule.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\SelectionValidationStringRule.cs",
+              "RelativeDocumentMoniker": "Validation\\SelectionValidationStringRule.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Validation\\SelectionValidationStringRule.cs",
+              "RelativeToolTip": "Validation\\SelectionValidationStringRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T12:15:36.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VisitWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\obj\\Debug\\net8.0-windows\\View\\VisitWindow.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\View\\VisitWindow.g.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\obj\\Debug\\net8.0-windows\\View\\VisitWindow.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\View\\VisitWindow.g.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAADwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:23:56.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddVoyage.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddVoyage.xaml",
+              "RelativeDocumentMoniker": "View\\AddVoyage.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddVoyage.xaml",
+              "RelativeToolTip": "View\\AddVoyage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T16:30:11.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "R4Page.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R4Page.xaml",
+              "RelativeDocumentMoniker": "View\\R4Page.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R4Page.xaml",
+              "RelativeToolTip": "View\\R4Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:33.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "R5Page.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R5Page.xaml",
+              "RelativeDocumentMoniker": "View\\R5Page.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R5Page.xaml",
+              "RelativeToolTip": "View\\R5Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:34.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Addvisit.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\Addvisit.xaml",
+              "RelativeDocumentMoniker": "View\\Addvisit.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\Addvisit.xaml",
+              "RelativeToolTip": "View\\Addvisit.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T16:27:47.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddSpotPage.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddSpotPage.xaml",
+              "RelativeDocumentMoniker": "View\\AddSpotPage.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddSpotPage.xaml",
+              "RelativeToolTip": "View\\AddSpotPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T16:25:55.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddCatch.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddCatch.xaml",
+              "RelativeDocumentMoniker": "View\\AddCatch.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddCatch.xaml",
+              "RelativeToolTip": "View\\AddCatch.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T16:22:37.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VoyagePage.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\VoyagePage.xaml",
+              "RelativeDocumentMoniker": "View\\VoyagePage.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\VoyagePage.xaml",
+              "RelativeToolTip": "View\\VoyagePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-11T20:22:54.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SpotWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\SpotWindow.xaml",
+              "RelativeDocumentMoniker": "View\\SpotWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\SpotWindow.xaml",
+              "RelativeToolTip": "View\\SpotWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T20:25:20.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "R1Page.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R1Page.xaml",
+              "RelativeDocumentMoniker": "View\\R1Page.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R1Page.xaml",
+              "RelativeToolTip": "View\\R1Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:30.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "R6Page.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R6Page.xaml",
+              "RelativeDocumentMoniker": "View\\R6Page.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R6Page.xaml",
+              "RelativeToolTip": "View\\R6Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:36.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "R2Page.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R2Page.xaml",
+              "RelativeDocumentMoniker": "View\\R2Page.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R2Page.xaml",
+              "RelativeToolTip": "View\\R2Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:31.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "R3Page.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R3Page.xaml",
+              "RelativeDocumentMoniker": "View\\R3Page.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\R3Page.xaml",
+              "RelativeToolTip": "View\\R3Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:32.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T20:14:13.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditVoyageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditVoyageWindow.xaml",
+              "RelativeDocumentMoniker": "View\\EditVoyageWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditVoyageWindow.xaml",
+              "RelativeToolTip": "View\\EditVoyageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T23:47:30.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditVisitWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditVisitWindow.xaml",
+              "RelativeDocumentMoniker": "View\\EditVisitWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditVisitWindow.xaml",
+              "RelativeToolTip": "View\\EditVisitWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T20:18:12.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EditSpotWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditSpotWindow.xaml",
+              "RelativeDocumentMoniker": "View\\EditSpotWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditSpotWindow.xaml",
+              "RelativeToolTip": "View\\EditSpotWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T16:44:31.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-17T11:41:32.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOUTAAAAAAAAAAAWwPMUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-10-21T16:53:21.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EditCatchWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditCatchWindow.xaml",
+              "RelativeDocumentMoniker": "View\\EditCatchWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditCatchWindow.xaml",
+              "RelativeToolTip": "View\\EditCatchWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T16:39:09.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CatchWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\CatchWindow.xaml",
+              "RelativeDocumentMoniker": "View\\CatchWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\CatchWindow.xaml",
+              "RelativeToolTip": "View\\CatchWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T16:36:06.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BoatWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\BoatWindow.xaml",
+              "RelativeDocumentMoniker": "View\\BoatWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\BoatWindow.xaml",
+              "RelativeToolTip": "View\\BoatWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T16:33:35.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AutorWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AutorWindow.xaml",
+              "RelativeDocumentMoniker": "View\\AutorWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AutorWindow.xaml",
+              "RelativeToolTip": "View\\AutorWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T15:54:44.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T15:54:25.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EditBoatWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditBoatWindow.xaml",
+              "RelativeDocumentMoniker": "View\\EditBoatWindow.xaml",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditBoatWindow.xaml",
+              "RelativeToolTip": "View\\EditBoatWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T23:20:58.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DateToStringConverter.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\DateToStringConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\DateToStringConverter.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\DateToStringConverter.cs",
+              "RelativeToolTip": "Converters\\DateToStringConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:31.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BoatIdToBoatName.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\BoatIdToBoatName.cs",
+              "RelativeDocumentMoniker": "Converters\\BoatIdToBoatName.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\BoatIdToBoatName.cs",
+              "RelativeToolTip": "Converters\\BoatIdToBoatName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:10:46.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Boat.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Model\\Boat.cs",
+              "RelativeDocumentMoniker": "Model\\Boat.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Model\\Boat.cs",
+              "RelativeToolTip": "Model\\Boat.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:04:00.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AutorWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AutorWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AutorWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AutorWindow.xaml.cs",
+              "RelativeToolTip": "View\\AutorWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAArwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:20:12.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "R6ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\ViewModel\\R6ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\R6ViewModel.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\ViewModel\\R6ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\R6ViewModel.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:11:32.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "R4ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\ViewModel\\R4ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\R4ViewModel.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\ViewModel\\R4ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\R4ViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:11:12.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:19:10.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SpotsIdToSpotName.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\SpotsIdToSpotName.cs",
+              "RelativeDocumentMoniker": "Converters\\SpotsIdToSpotName.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\SpotsIdToSpotName.cs",
+              "RelativeToolTip": "Converters\\SpotsIdToSpotName.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:15:15.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAMwCAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:52:27.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FromVoyageIdToCaptain.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromVoyageIdToCaptain.cs",
+              "RelativeDocumentMoniker": "Converters\\FromVoyageIdToCaptain.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromVoyageIdToCaptain.cs",
+              "RelativeToolTip": "Converters\\FromVoyageIdToCaptain.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:15:06.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FromVisitIdToDepDate.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromVisitIdToDepDate.cs",
+              "RelativeDocumentMoniker": "Converters\\FromVisitIdToDepDate.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromVisitIdToDepDate.cs",
+              "RelativeToolTip": "Converters\\FromVisitIdToDepDate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:14:58.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EditBoatWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditBoatWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditBoatWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditBoatWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditBoatWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAtwBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:13:27.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EditCatchWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditCatchWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditCatchWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditCatchWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditCatchWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:13:08.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AddCatch.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddCatch.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddCatch.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddCatch.xaml.cs",
+              "RelativeToolTip": "View\\AddCatch.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAWwCwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:12:51.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EditSpotWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditSpotWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditSpotWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditSpotWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditSpotWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAtwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:12:37.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AddSpotPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddSpotPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddSpotPage.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddSpotPage.xaml.cs",
+              "RelativeToolTip": "View\\AddSpotPage.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:12:25.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "FromSpotNameToSpotId.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromSpotNameToSpotId.cs",
+              "RelativeDocumentMoniker": "Converters\\FromSpotNameToSpotId.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromSpotNameToSpotId.cs",
+              "RelativeToolTip": "Converters\\FromSpotNameToSpotId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:12:15.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "EditVisitWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditVisitWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditVisitWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditVisitWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditVisitWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAjwBYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:51.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Addvisit.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\Addvisit.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Addvisit.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\Addvisit.xaml.cs",
+              "RelativeToolTip": "View\\Addvisit.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAtwDAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:36.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EditVoyageWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditVoyageWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditVoyageWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\EditVoyageWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditVoyageWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:16.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AddVoyage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddVoyage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddVoyage.xaml.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\View\\AddVoyage.xaml.cs",
+              "RelativeToolTip": "View\\AddVoyage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAWwDEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:08:42.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "FromReturnDateToVisitId.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromReturnDateToVisitId.cs",
+              "RelativeDocumentMoniker": "Converters\\FromReturnDateToVisitId.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromReturnDateToVisitId.cs",
+              "RelativeToolTip": "Converters\\FromReturnDateToVisitId.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAtwBAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:08:15.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "FromBoatNameToBoatId.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromBoatNameToBoatId.cs",
+              "RelativeDocumentMoniker": "Converters\\FromBoatNameToBoatId.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\KursProject\\Converters\\FromBoatNameToBoatId.cs",
+              "RelativeToolTip": "Converters\\FromBoatNameToBoatId.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:07:26.677Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
