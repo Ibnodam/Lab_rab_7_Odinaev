@@ -1,0 +1,6 @@
+C:\Users\valij\OneDrive\Desktop\Тестирование Климайтис\Gr\Gr\obj\Debug\net8.0\Gr.csproj.AssemblyReference.cache
+C:\Users\valij\OneDrive\Desktop\Тестирование Климайтис\Gr\Gr\obj\Debug\net8.0\Gr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valij\OneDrive\Desktop\Тестирование Климайтис\Gr\Gr\obj\Debug\net8.0\Gr.AssemblyInfoInputs.cache
+C:\Users\valij\OneDrive\Desktop\Тестирование Климайтис\Gr\Gr\obj\Debug\net8.0\Gr.AssemblyInfo.cs
+C:\Users\valij\OneDrive\Desktop\Тестирование Климайтис\Gr\Gr\obj\Debug\net8.0\Gr.csproj.CoreCompileInputs.cache
+C:\Users\valij\OneDrive\Desktop\Тестирование Климайтис\Gr\Gr\obj\Debug\net8.0\Gr.MvcApplicationPartsAssemblyInfo.cache

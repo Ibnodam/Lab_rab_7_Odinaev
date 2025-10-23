@@ -1,0 +1,174 @@
+﻿@page "/seats"
+@using GrClient.DataAccess
+@inject Query GraphQLClient
+
+<PageTitle>Свободные места</PageTitle>
+
+<div class="container mt-4">
+    <h1>Свободные места в поезде</h1>
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <label for="trainId" class="form-label">ID поезда:</label>
+            <input @bind="trainId" type="number" class="form-control" id="trainId" />
+        </div>
+        <div class="col-md-4">
+            <label for="minPrice" class="form-label">Мин. цена (опционально):</label>
+            <input @bind="minPrice" type="number" class="form-control" id="minPrice" />
+        </div>
+        <div class="col-md-4">
+            <label for="maxPrice" class="form-label">Макс. цена (опционально):</label>
+            <input @bind="maxPrice" type="number" class="form-control" id="maxPrice" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <button @onclick="LoadFreeSeats" class="btn btn-primary" disabled="@isLoading">
+                @(isLoading ? "Загрузка..." : "Все свободные места")
+            </button>
+        </div>
+        <div class="col-md-6">
+            <button @onclick="LoadFreeSeatsByPrice" class="btn btn-secondary" disabled="@isLoading">
+                @(isLoading ? "Загрузка..." : "Свободные места по цене")
+            </button>
+        </div>
+    </div>
+
+    @if (errorMessage != null)
+    {
+        <div class="alert alert-danger">@errorMessage</div>
+    }
+
+    @if (freeSeats.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Вагон</th>
+                        <th>Место</th>
+                        <th>Тип вагона</th>
+                        <th>Цена</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var seat in freeSeats)
+                    {
+                        <tr>
+                            <td>@seat.WagonNumber</td>
+                            <td>@seat.SeatNumber</td>
+                            <td>@seat.WagonType</td>
+                            <td>@seat.Price.ToString("C2")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else if (!isLoading && trainId > 0)
+    {
+        <div class="alert alert-info">Свободные места не найдены</div>
+    }
+</div>
+
+@code {
+    private int trainId;
+    private decimal minPrice;
+    private decimal maxPrice;
+    private List<FreeSeatInfo> freeSeats = new();
+    private bool isLoading = false;
+    private string? errorMessage;
+
+    private async Task LoadFreeSeats()
+    {
+        if (trainId <= 0)
+        {
+            errorMessage = "Введите корректный ID поезда";
+            return;
+        }
+
+        try
+        {
+            isLoading = true;
+            errorMessage = null;
+            freeSeats.Clear();
+            StateHasChanged();
+
+            var query = @"
+                query ($trainId: Int!) {
+                    freeSeats(trainId: $trainId) {
+                        wagonNumber
+                        seatNumber
+                        wagonType
+                        price
+                    }
+                }";
+
+            var variables = new { trainId };
+            var response = await GraphQLClient.ExecuteQueryAsync<FreeSeatsResponse>(query, variables);
+            freeSeats = response.FreeSeats;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Ошибка загрузки: {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task LoadFreeSeatsByPrice()
+    {
+        if (trainId <= 0)
+        {
+            errorMessage = "Введите корректный ID поезда";
+            return;
+        }
+
+        if (minPrice <= 0 || maxPrice <= 0 || minPrice > maxPrice)
+        {
+            errorMessage = "Введите корректный диапазон цен";
+            return;
+        }
+
+        try
+        {
+            isLoading = true;
+            errorMessage = null;
+            freeSeats.Clear();
+            StateHasChanged();
+
+            var query = @"
+                query ($trainId: Int!, $minPrice: Decimal!, $maxPrice: Decimal!) {
+                    freeSeatsByPriceRange(trainId: $trainId, minPrice: $minPrice, maxPrice: $maxPrice) {
+                        wagonNumber
+                        seatNumber
+                        wagonType
+                        price
+                    }
+                }";
+
+            var variables = new { trainId, minPrice, maxPrice };
+            var response = await GraphQLClient.ExecuteQueryAsync<FreeSeatsResponse>(query, variables);
+            freeSeats = response.FreeSeatsByPriceRange;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Ошибка загрузки: {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private class FreeSeatsResponse
+    {
+        public List<FreeSeatInfo> FreeSeats { get; set; } = new();
+        public List<FreeSeatInfo> FreeSeatsByPriceRange { get; set; } = new();
+    }
+}

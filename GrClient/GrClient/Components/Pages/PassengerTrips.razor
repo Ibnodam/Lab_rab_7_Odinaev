@@ -1,0 +1,102 @@
+﻿@page "/passengertrips"
+@using GrClient.DataAccess
+
+<PageTitle>Передвижения пассажира</PageTitle>
+
+<div class="container mt-4">
+    <h1>Справка о передвижениях пассажира</h1>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label for="passengerId" class="form-label">ID пассажира:</label>
+            <input @bind="passengerId" @bind:event="oninput" type="number" class="form-control" id="passengerId" />
+        </div>
+        <div class="col-md-6 d-flex align-items-end">
+            <button @onclick="LoadTrips" class="btn btn-primary">
+                Загрузить поездки
+            </button>
+        </div>
+    </div>
+
+    @if (errorMessage != null)
+    {
+        <div class="alert alert-danger">@errorMessage</div>
+    }
+
+    @if (trips.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Поезд</th>
+                        <th>Маршрут</th>
+                        <th>Отправление</th>
+                        <th>Прибытие</th>
+                        <th>Вагон</th>
+                        <th>Место</th>
+                        <th>Цена</th>
+                        <th>Дата покупки</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var trip in trips)
+                    {
+                        <tr>
+                            <td>@trip.TrainNumber</td>
+                            <td>@trip.Route</td>
+                            <td>@trip.Departure.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>@trip.Arrival.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>@trip.WagonNumber</td>
+                            <td>@trip.SeatNumber</td>
+                            <td>@trip.Price.ToString("C2")</td>
+                            <td>@trip.PurchaseDate.ToString("dd.MM.yyyy HH:mm")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else if (passengerId > 0)
+    {
+        <div class="alert alert-info">Поездки не найдены для пассажира ID: @passengerId</div>
+    }
+</div>
+
+@code {
+    private int passengerId;
+    private List<PassengerTrip> trips = new();
+    private string? errorMessage;
+
+    private async Task LoadTrips()
+    {
+        if (passengerId <= 0)
+        {
+            errorMessage = "Введите корректный ID пассажира";
+            return;
+        }
+
+        try
+        {
+            errorMessage = null;
+            trips.Clear();
+            StateHasChanged();
+
+            // ПРАВИЛЬНЫЙ ПОДХОД - параметры в строке запроса
+            string query = $"query {{ passengerTrips(passengerId: {passengerId}) {{ trainNumber route departure arrival wagonNumber seatNumber price purchaseDate }} }}";
+            string queryType = "passengerTrips";
+
+            var result = await Query.ExecuteQueryReturnListAsync<PassengerTrip>(queryType, query);
+            trips = result;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Ошибка загрузки: {ex.Message}";
+            Console.WriteLine($"Ошибка: {ex.Message}");
+        }
+        finally
+        {
+            StateHasChanged();
+        }
+    }
+}

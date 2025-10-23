@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|c:\\users\\valij\\onedrive\\desktop\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\grclient\\grclient\\components\\pages\\ticketcost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|solutionrelative:grclient\\components\\pages\\ticketcost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|c:\\users\\valij\\onedrive\\desktop\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\grclient\\grclient\\components\\pages\\passengertrips.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|solutionrelative:grclient\\components\\pages\\passengertrips.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|c:\\users\\valij\\onedrive\\desktop\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\grclient\\grclient\\components\\pages\\passengerbyseat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|solutionrelative:grclient\\components\\pages\\passengerbyseat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|c:\\users\\valij\\onedrive\\desktop\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\grclient\\grclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|solutionrelative:grclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|c:\\users\\valij\\onedrive\\desktop\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\grclient\\grclient\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F2EEA71-2397-497E-A170-546BC566EA1B}|GrClient\\GrClient.csproj|solutionrelative:grclient\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\appsettings.json",
+              "RelativeDocumentMoniker": "GrClient\\appsettings.json",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\appsettings.json",
+              "RelativeToolTip": "GrClient\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-23T04:33:46.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "GrClient\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "GrClient\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswCoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T03:53:25.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PassengerBySeat.razor",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\Components\\Pages\\PassengerBySeat.razor",
+              "RelativeDocumentMoniker": "GrClient\\Components\\Pages\\PassengerBySeat.razor",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\Components\\Pages\\PassengerBySeat.razor",
+              "RelativeToolTip": "GrClient\\Components\\Pages\\PassengerBySeat.razor",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T03:48:56.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketCost.razor",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\Components\\Pages\\TicketCost.razor",
+              "RelativeDocumentMoniker": "GrClient\\Components\\Pages\\TicketCost.razor",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\Components\\Pages\\TicketCost.razor",
+              "RelativeToolTip": "GrClient\\Components\\Pages\\TicketCost.razor",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T03:48:40.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PassengerTrips.razor",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\Components\\Pages\\PassengerTrips.razor",
+              "RelativeDocumentMoniker": "GrClient\\Components\\Pages\\PassengerTrips.razor",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\GrClient\\GrClient\\Components\\Pages\\PassengerTrips.razor",
+              "RelativeToolTip": "GrClient\\Components\\Pages\\PassengerTrips.razor",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T03:48:26.657Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

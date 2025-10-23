@@ -1,0 +1,84 @@
+﻿@page "/passengers"
+@using GrClient.DataAccess
+
+<PageTitle>Пассажиры поезда</PageTitle>
+
+<div class="container mt-4">
+    <h1>Список пассажиров поезда</h1>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label for="trainId" class="form-label">ID поезда:</label>
+            <input @bind="trainId" @bind:event="oninput" type="number" class="form-control" id="trainId" />
+        </div>
+        <div class="col-md-6 d-flex align-items-end">
+            <button @onclick="LoadPassengers" class="btn btn-primary">
+                Загрузить пассажиров
+            </button>
+        </div>
+    </div>
+
+    @if (errorMessage != null)
+    {
+        <div class="alert alert-danger">@errorMessage</div>
+    }
+
+    @if (AllPassengers.Count > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>ФИО</th>
+                    <th>Паспорт</th>
+                    <th>Дата рождения</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var passenger in AllPassengers)
+                {
+                    <tr>
+                        <td>@passenger.Id</td>
+                        <td>@passenger.FullName</td>
+                        <td>@passenger.Passport</td>
+                        <td>@passenger.BirthDate.ToString("dd.MM.yyyy")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else if (trainId > 0)
+    {
+        <div class="alert alert-info">Пассажиры не найдены для поезда ID: @trainId</div>
+    }
+</div>
+
+@code {
+    private int trainId = 2;
+    private List<Passenger> AllPassengers = new List<Passenger>();
+    private string? errorMessage;
+
+    private async Task LoadPassengers()
+    {
+        try
+        {
+            errorMessage = null;
+            AllPassengers.Clear();
+            StateHasChanged();
+
+            string query = $"query {{ passengersByTrain(trainId: {trainId}) {{ id fullName passport birthDate }} }}";
+            string queryType = "passengersByTrain";
+
+            var result = await Query.ExecuteQueryReturnListAsync<Passenger>(queryType, query);
+            AllPassengers = result;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Ошибка загрузки: {ex.Message}";
+        }
+        finally
+        {
+            StateHasChanged();
+        }
+    }
+}

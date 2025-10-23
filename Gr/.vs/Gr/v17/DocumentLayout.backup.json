@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\Gr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0662A0-B7AC-42AE-9C53-5F7676A58378}|Gr\\Gr.csproj|c:\\users\\valij\\onedrive\\desktop\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\gr\\gr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0662A0-B7AC-42AE-9C53-5F7676A58378}|Gr\\Gr.csproj|solutionrelative:gr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0662A0-B7AC-42AE-9C53-5F7676A58378}|Gr\\Gr.csproj|c:\\users\\valij\\onedrive\\desktop\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\gr\\gr\\dao\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0662A0-B7AC-42AE-9C53-5F7676A58378}|Gr\\Gr.csproj|solutionrelative:gr\\dao\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\Gr\\Gr\\Program.cs",
+              "RelativeDocumentMoniker": "Gr\\Program.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\Gr\\Gr\\Program.cs",
+              "RelativeToolTip": "Gr\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:21:06.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\Gr\\Gr\\Dao\\Repository.cs",
+              "RelativeDocumentMoniker": "Gr\\Dao\\Repository.cs",
+              "ToolTip": "C:\\Users\\valij\\OneDrive\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041A\u043B\u0438\u043C\u0430\u0439\u0442\u0438\u0441\\Gr\\Gr\\Dao\\Repository.cs",
+              "RelativeToolTip": "Gr\\Dao\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T05:23:24.057Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

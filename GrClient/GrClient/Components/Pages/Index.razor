@@ -1,0 +1,71 @@
+﻿@page "/"
+@using GrClient.DataAccess
+@inject Query GraphQLClient
+
+<PageTitle>Система продажи билетов</PageTitle>
+
+<div class="container mt-4">
+    <h1>Информационная система "Продажа билетов"</h1>
+
+    <div class="row mt-4">
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Поезда</h5>
+                    <p class="card-text">Список всех поездов</p>
+                    <a href="/trains" class="btn btn-primary">Перейти</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Пассажиры поезда</h5>
+                    <p class="card-text">Список пассажиров заданного поезда</p>
+                    <a href="/passengers" class="btn btn-primary">Перейти</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Свободные места</h5>
+                    <p class="card-text">Список свободных мест для поезда</p>
+                    <a href="/seats" class="btn btn-primary">Перейти</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Передвижения пассажира</h5>
+                    <p class="card-text">Справка о всех поездках пассажира</p>
+                    <a href="/passengertrips" class="btn btn-primary">Перейти</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Стоимость билетов</h5>
+                    <p class="card-text">Расчет стоимости проданных билетов</p>
+                    <a href="/ticketscost" class="btn btn-primary">Перейти</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Пассажир по месту</h5>
+                    <p class="card-text">Справка о пассажире по месту в поезде</p>
+                    <a href="/passengerbyseat" class="btn btn-primary">Перейти</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

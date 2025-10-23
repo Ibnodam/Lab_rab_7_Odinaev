@@ -1,0 +1,99 @@
+﻿@page "/passengerbyseat"
+@using GrClient.DataAccess
+
+<PageTitle>Пассажир по месту</PageTitle>
+
+<div class="container mt-4">
+    <h1>Справка о пассажире по месту</h1>
+
+    <div class="row mb-3">
+        <div class="col-md-3">
+            <label for="trainId" class="form-label">ID поезда:</label>
+            <input @bind="trainId" @bind:event="oninput" type="number" class="form-control" id="trainId" />
+        </div>
+        <div class="col-md-3">
+            <label for="wagonNumber" class="form-label">Номер вагона:</label>
+            <input @bind="wagonNumber" @bind:event="oninput" type="number" class="form-control" id="wagonNumber" />
+        </div>
+        <div class="col-md-3">
+            <label for="seatNumber" class="form-label">Номер места:</label>
+            <input @bind="seatNumber" @bind:event="oninput" type="number" class="form-control" id="seatNumber" />
+        </div>
+        <div class="col-md-3 d-flex align-items-end">
+            <button @onclick="FindPassenger" class="btn btn-primary">
+                Найти пассажира
+            </button>
+        </div>
+    </div>
+
+    @if (errorMessage != null)
+    {
+        <div class="alert alert-danger">@errorMessage</div>
+    }
+
+    @if (passengerInfo != null)
+    {
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Информация о пассажире</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>ФИО:</strong> @passengerInfo.FullName</p>
+                        <p><strong>Паспорт:</strong> @passengerInfo.Passport</p>
+                        <p><strong>Дата рождения:</strong> @passengerInfo.BirthDate.ToString("dd.MM.yyyy")</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Цена билета:</strong> @passengerInfo.Price.ToString("C2")</p>
+                        <p><strong>Дата покупки:</strong> @passengerInfo.PurchaseDate.ToString("dd.MM.yyyy HH:mm")</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else if (trainId > 0 && wagonNumber > 0 && seatNumber > 0)
+    {
+        <div class="alert alert-info">Пассажир не найден на указанном месте</div>
+    }
+</div>
+
+@code {
+    private int trainId;
+    private int wagonNumber;
+    private int seatNumber;
+    private PassengerInfo? passengerInfo;
+    private string? errorMessage;
+
+    private async Task FindPassenger()
+    {
+        if (trainId <= 0 || wagonNumber <= 0 || seatNumber <= 0)
+        {
+            errorMessage = "Заполните все поля корректными значениями";
+            return;
+        }
+
+        try
+        {
+            errorMessage = null;
+            passengerInfo = null;
+            StateHasChanged();
+
+            // ПРАВИЛЬНЫЙ ПОДХОД ПРЕПОДАВАТЕЛЯ - параметры в строке запроса
+            string query = $"query {{ passengerBySeat(trainId: {trainId}, wagonNumber: {wagonNumber}, seatNumber: {seatNumber}) {{ fullName passport birthDate price purchaseDate }} }}";
+            string queryType = "passengerBySeat";
+
+            var result = await Query.ExecuteQueryAsync<PassengerInfo>(queryType, query);
+            passengerInfo = result;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Ошибка поиска: {ex.Message}";
+            Console.WriteLine($"Ошибка: {ex.Message}");
+        }
+        finally
+        {
+            StateHasChanged();
+        }
+    }
+}

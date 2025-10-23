@@ -1,0 +1,64 @@
+﻿@page "/trains"
+@using GrClient.DataAccess
+@inject NavigationManager NavigationManager
+
+<PageTitle>Список поездов</PageTitle>
+
+<div class="container mt-4">
+    <h1>Список всех поездов</h1>
+
+    @if (AllTrains.Count == 0)
+    {
+        <p><em>Loading ...</em></p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Номер</th>
+                    <th>Маршрут</th>
+                    <th>Отправление</th>
+                    <th>Прибытие</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var train in AllTrains)
+                {
+                    <tr>
+                        <td>@train.Id</td>
+                        <td>@train.Number</td>
+                        <td>@train.Route</td>
+                        <td>@train.Departure.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>@train.Arrival.ToString("dd.MM.yyyy HH:mm")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+@code {
+    private List<Train> AllTrains = new List<Train>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Load();
+    }
+
+    private async Task Load()
+    {
+        try
+        {
+            string query = "query { trains { id number route departure arrival } }";
+            string queryType = "trains";
+            var result = await Query.ExecuteQueryReturnListAsync<Train>(queryType, query);
+            AllTrains = result;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка: {ex.Message}");
+        }
+    }
+}

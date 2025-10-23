@@ -1,0 +1,164 @@
+﻿@page "/ticketscost"
+@using GrClient.DataAccess
+
+<PageTitle>Стоимость билетов</PageTitle>
+
+<div class="container mt-4">
+    <h1>Расчет стоимости билетов</h1>
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <label for="trainId" class="form-label">ID поезда:</label>
+            <input @bind="trainId" @bind:event="oninput" type="number" class="form-control" id="trainId" />
+        </div>
+        <div class="col-md-4">
+            <label for="startDate" class="form-label">Начало периода:</label>
+            <input @bind="startDate" @bind:event="oninput" type="date" class="form-control" id="startDate" />
+        </div>
+        <div class="col-md-4">
+            <label for="endDate" class="form-label">Конец периода:</label>
+            <input @bind="endDate" @bind:event="oninput" type="date" class="form-control" id="endDate" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <button @onclick="CalculateTotalCost" class="btn btn-primary">
+                Общая стоимость за период
+            </button>
+        </div>
+        <div class="col-md-4">
+            <button @onclick="CalculateSoldCostByTrain" class="btn btn-secondary">
+                Проданные билеты поезда
+            </button>
+        </div>
+        <div class="col-md-4">
+            <button @onclick="CalculateUnsoldCostByTrain" class="btn btn-info">
+                Непроданные билеты поезда
+            </button>
+        </div>
+    </div>
+
+    @if (errorMessage != null)
+    {
+        <div class="alert alert-danger">@errorMessage</div>
+    }
+
+    @if (costResult.HasValue)
+    {
+        <div class="alert alert-success">
+            <h4>Результат расчета:</h4>
+            <p class="mb-0">Стоимость: <strong>@costResult.Value.ToString("C2")</strong></p>
+        </div>
+    }
+</div>
+
+@code {
+    private int trainId;
+    private DateTime startDate = DateTime.Today.AddDays(-30);
+    private DateTime endDate = DateTime.Today;
+    private decimal? costResult;
+    private string? errorMessage;
+
+    private async Task CalculateTotalCost()
+    {
+        if (startDate > endDate)
+        {
+            errorMessage = "Начальная дата не может быть больше конечной";
+            return;
+        }
+
+        try
+        {
+            errorMessage = null;
+            costResult = null;
+            StateHasChanged();
+
+            // Конвертируем DateTime в строку для GraphQL
+            string startDateGraphQL = startDate.ToString("yyyy-MM-dd") + "T00:00:00.000Z";
+            string endDateGraphQL = endDate.ToString("yyyy-MM-dd") + "T23:59:59.000Z";
+
+            string query = $"query {{ totalSoldTicketsCost(start: \"{startDateGraphQL}\", end: \"{endDateGraphQL}\") }}";
+            string queryType = "totalSoldTicketsCost";
+
+            // Используем класс-обертку для decimal
+            var result = await Query.ExecuteQueryAsync<CostResultWrapper>(queryType, query);
+            costResult = result.Value;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Ошибка расчета: {ex.Message}";
+            Console.WriteLine($"Ошибка: {ex.Message}");
+        }
+        finally
+        {
+            StateHasChanged();
+        }
+    }
+
+    private async Task CalculateSoldCostByTrain()
+    {
+        if (trainId <= 0)
+        {
+            errorMessage = "Введите корректный ID поезда";
+            return;
+        }
+
+        try
+        {
+            errorMessage = null;
+            costResult = null;
+            StateHasChanged();
+
+            string query = $"query {{ soldTicketsCostByTrain(trainId: {trainId}) }}";
+            string queryType = "soldTicketsCostByTrain";
+
+            var result = await Query.ExecuteQueryAsync<CostResultWrapper>(queryType, query);
+            costResult = result.Value;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Ошибка расчета: {ex.Message}";
+        }
+        finally
+        {
+            StateHasChanged();
+        }
+    }
+
+    private async Task CalculateUnsoldCostByTrain()
+    {
+        if (trainId <= 0)
+        {
+            errorMessage = "Введите корректный ID поезда";
+            return;
+        }
+
+        try
+        {
+            errorMessage = null;
+            costResult = null;
+            StateHasChanged();
+
+            string query = $"query {{ unsoldTicketsCostByTrain(trainId: {trainId}) }}";
+            string queryType = "unsoldTicketsCostByTrain";
+
+            var result = await Query.ExecuteQueryAsync<CostResultWrapper>(queryType, query);
+            costResult = result.Value;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Ошибка расчета: {ex.Message}";
+        }
+        finally
+        {
+            StateHasChanged();
+        }
+    }
+
+    // Класс-обертка для decimal результатов
+    private class CostResultWrapper
+    {
+        public decimal Value { get; set; }
+    }
+}
