@@ -18,10 +18,10 @@ fun AddEditEmployeeDialog(
     onSave: (Employee) -> Unit,
     onDismiss: () -> Unit
 ) {
-    var last by remember { mutableStateOf(initial?.lastName ?: "") }
-    var first by remember { mutableStateOf(initial?.firstName ?: "") }
-    var middle by remember { mutableStateOf(initial?.middleName ?: "") }
-    var pos by remember { mutableStateOf(initial?.position ?: "") }
+    var last by remember { mutableStateOf("") }
+    var first by remember  { mutableStateOf("") }
+    var middle by remember  { mutableStateOf("") }
+    var pos by remember  { mutableStateOf("") }
     var gender by remember { mutableStateOf(initial?.gender ?: "М") }
     var date by remember { mutableStateOf(initial?.hireDate ?: "2020-01-01") }
 

@@ -9,6 +9,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.time.LocalDate
 import java.time.Period
+import java.time.temporal.ChronoUnit
 import kotlin.math.roundToInt
 
 class EmployeeViewModel(private val app: App) : ViewModel() {
@@ -24,12 +25,18 @@ class EmployeeViewModel(private val app: App) : ViewModel() {
         load()
     }
 
-    private fun yearsSince(hireDate: String): Int {
+    private fun yearsSince(hireDate: String): Double {
         return try {
             val d = LocalDate.parse(hireDate)
-            Period.between(d, LocalDate.now()).years
+            val now = LocalDate.now()
+            val p = Period.between(d, now)
+
+            val totalMonths = p.years * 12 + p.months
+            val years = totalMonths / 12.0
+
+            years
         } catch (t: Throwable) {
-            0
+            0.0
         }
     }
 

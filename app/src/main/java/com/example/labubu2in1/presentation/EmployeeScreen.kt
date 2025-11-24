@@ -30,7 +30,9 @@ fun EmployeeScreen(vm: EmployeeViewModel) {
 
     Scaffold(
         topBar = {
-            SmallTopAppBar(title = { Text("Сотрудники — средний стаж ${"%.1f".format(avg)} лет") })
+            CenterAlignedTopAppBar(
+                title = { Text("Сотрудники — средний стаж ${"%.1f".format(avg)} лет") }
+            )
         },
         floatingActionButton = {
             FloatingActionButton(onClick = {
@@ -50,12 +52,12 @@ fun EmployeeScreen(vm: EmployeeViewModel) {
                 LazyColumn(modifier = Modifier.fillMaxSize()) {
                     itemsIndexed(list) { idx, emp ->
                         val years = remember(emp.hireDate) {
-                            try {
-                                Period.between(LocalDate.parse(emp.hireDate), LocalDate.now()).years
-                            } catch (t: Throwable) {
-                                0
-                            }
+                            val d = LocalDate.parse(emp.hireDate)
+                            val now = LocalDate.now()
+                            val p = Period.between(d, now)
+                            (p.years * 12 + p.months) / 12.0
                         }
+
                         val isAbove = vm.isAboveAverage(emp.hireDate)
                         val bg = if (isAbove) Color(0xFFDFF7E0) else Color.White
 

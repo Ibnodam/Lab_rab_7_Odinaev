@@ -20,7 +20,7 @@ import com.example.labubu2in1.domain.model.Employee
 @Composable
 fun EmployeeItem(
     employee: Employee,
-    years: Int,
+    years: Double,
     background: Color,
     onEdit: () -> Unit,
     onDelete: () -> Unit
